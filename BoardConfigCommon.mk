@@ -64,7 +64,7 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 #-----------------------------------------------------#
 
 #A/B
-BOARD_USES_RECOVERY_AS_BOOT := true
+BOARD_USES_RECOVERY_AS_BOOT := false
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 AB_OTA_UPDATER := true
 
